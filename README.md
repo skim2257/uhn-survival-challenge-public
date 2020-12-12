@@ -1,4 +1,4 @@
-# UHN Survival Prediction Challenge Participant #'s Code
+# UHN Survival Prediction Challenge Participant Code
 Clone conda environment: `conda env create -f env.yml`
 
 ### Imaging Only Model
