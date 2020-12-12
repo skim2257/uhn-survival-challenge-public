@@ -7,7 +7,7 @@ CHECKPOINT_PATH=""
 source /cluster/home/$USERNAME/.bashrc
 conda activate env
 
-python -m radcurechallenge.radiomics.finetune\
+python -m surv_challenge.radiomics.finetune\
           $RAW_DATA_PATH\
           $RAW_DATA_PATH/training/clinical.csv\
           --cache_dir ./data/data_cache\

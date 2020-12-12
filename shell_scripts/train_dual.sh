@@ -6,7 +6,7 @@ RAW_DATA_PATH=""
 source /cluster/home/$USERNAME/.bashrc
 conda activate env
 
-python -m radcurechallenge.dual.train\
+python -m surv_challenge.dual.train\
           $RAW_DATA_PATH\
           $RAW_DATA_PATH/training/clinical.csv\
           --cache_dir ./data/data_cache\
